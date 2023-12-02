@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projeto_Transferencia_Bancaria", "Projeto_Transferencia_Bancaria", "{1C334EAE-24DA-47B6-ADD0-86827EFB7540}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIO.Bank", "DIO.Bank\DIO.Bank.csproj", "{7EDE57A1-218C-44F0-ACFE-FCCE27CFD73D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIO.Domain", "DIO.Domain\DIO.Domain.csproj", "{B8D37BBC-14D3-472E-8D77-799225A31255}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EDE57A1-218C-44F0-ACFE-FCCE27CFD73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDE57A1-218C-44F0-ACFE-FCCE27CFD73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EDE57A1-218C-44F0-ACFE-FCCE27CFD73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EDE57A1-218C-44F0-ACFE-FCCE27CFD73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D37BBC-14D3-472E-8D77-799225A31255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D37BBC-14D3-472E-8D77-799225A31255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D37BBC-14D3-472E-8D77-799225A31255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D37BBC-14D3-472E-8D77-799225A31255}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7EDE57A1-218C-44F0-ACFE-FCCE27CFD73D} = {1C334EAE-24DA-47B6-ADD0-86827EFB7540}
+		{B8D37BBC-14D3-472E-8D77-799225A31255} = {1C334EAE-24DA-47B6-ADD0-86827EFB7540}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDC20835-BCFD-4C66-9212-1C4702D832B1}
+	EndGlobalSection
+EndGlobal
